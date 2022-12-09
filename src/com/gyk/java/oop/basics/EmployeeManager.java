@@ -1,7 +1,6 @@
 package com.gyk.java.oop.basics;
 
 
-
 public class EmployeeManager {
     public static void main(String[] args) {
         Employee employee1 = new Employee();//"Jonas","Jonaitis","Vadybininkas", "Terminuotas",1000,"June1st");

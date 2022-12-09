@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3b4cc6f-0e07-48c4-97a6-35883c3c498e" name="Changes" comment="Begin">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasics2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gyk/java/oop/basics/ContractType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gyk/java/oop/basics/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gyk/java/oop/basics/EmployeeManager.java" afterDir="false" />
+    <list default="true" id="b3b4cc6f-0e07-48c4-97a6-35883c3c498e" name="Changes" comment="2 Paskaita 1 užduotis">
+      <change afterPath="$PROJECT_DIR$/src/com/gyk/java/oop/basics2/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gyk/java/oop/basics2/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gyk/java/oop/basics2/LoanType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gyk/java/oop/basics2/LoansApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gyk/java/oop/basics/EmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gyk/java/oop/basics/EmployeeManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GIT/Karolio/gyk2022&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/GIT/JavaBasics3"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.LoansApplication">
     <configuration name="EmployeeManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gyk.java.oop.basics.EmployeeManager" />
       <module name="JavaBasics2" />
@@ -62,8 +58,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoansApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gyk.java.oop.basics2.LoansApplication" />
+      <module name="JavaBasics2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gyk.java.oop.basics2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoansApplication" />
         <item itemvalue="Application.EmployeeManager" />
       </list>
     </recent_temporary>
@@ -77,6 +87,13 @@
       <option name="presentableId" value="Default" />
       <updated>1669607754113</updated>
     </task>
+    <task id="LOCAL−00001" summary="2 Paskaita 1 užduotis">
+      <created>1669874277388</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1669874277388</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +109,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Begin" />
+    <MESSAGE value="2 Paskaita 1 užduotis" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 Paskaita 1 užduotis" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
