@@ -6,13 +6,6 @@ import static com.gyk.java.oop.basics2.LoanType.*;
 public class LoansApplication {
     public static void main(String[] args) {
 
-        Customer customer1 = new Customer();
-        customer1.setName("Jonas");
-        customer1.setLastName("Jonaitis");
-        customer1.setAge(54);
-        customer1.setPersonalID(1234);
-        customer1.setLoans(customer1.getLoans());
-
 
         Loan loan1 = new Loan();
         loan1.setLoanID(78);
@@ -36,7 +29,12 @@ public class LoansApplication {
         System.out.println(loans[0]);
         System.out.println(loans[1]);
 
-
+        Customer customer1 = new Customer();
+        customer1.setName("Jonas");
+        customer1.setLastName("Jonaitis");
+        customer1.setAge(54);
+        customer1.setPersonalID(1234);
+        customer1.setLoans(loans);
 
 
         customer1.customerLoanInfo();
